@@ -3,141 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- css stylesheets -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>HOME | Artelers ARTISTS & DESIGNERS</title>
+    <link rel="shortcut icon" href="./assets/logo-2.png" type="image/x-icon"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
-    <div class="first-page">
-        <div class="offer">get 60 % off on your first website to avail this offer type coupon in the chatbox below</div>
-    <img src="./assets/first icon.png" class="icon-illustration" alt="">
-        <nav style="padding : 0 4vw;">
-            <a href="index.html" class="logo">artelers</a>
-            <ul> <a href="about.html"><li>about</li></a> <a href="contact.html"><li>contact</li></a> <a href="index.html#services"><li>services</li></a></ul>
+    <main class="eve main-landing-page">
+        <nav>
+            <a href="index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+            <div class="menu" onclick="toggle()">
+                <i class="fas fa-bars"></i>
+                <span>MENU</span>
+            </div>
         </nav>
-    <main class="container-fluid" data-aos="fade-up">
+        
         <div class="landing">
-            <h1 class="text1">looking for a<i><h1 class="text2"></h1></i></h1>
-            <h1 class="text3">want a website for your business <span>?</span></h1>
+            <h1>WE ARE ARTELERS</h1>
+            <h1>LOGO Designer | UI/UX Designer | 
+                Web Designer | Web Developer</h1>
+            <p>Looking For A Website Designer? <br>
+                We Are Artelers A Group Of Skilled Designers And Developers, We Are Specialized In Creating High-Quality Websites, Logo Designers, Banners, And Many More.</p>
+            <a href="#"><span class="CTA">GET A QUOTE</span></a>
         </div>
     </main>
+    
+    <div id="nav-links" class="menu-bar">
+        <ul>
+            <li onclick="toggle()"><a href="./index.html">HOME</a></li>
+            <li onclick="toggle()"><a href="./index.html#why-we">WHY WE</a></li>
+            <li onclick="toggle()"><a href="./index.html#services">SERVICES</a></li>
+            <li onclick="toggle()"><a href="./portfolio.html">PORTFOLIO</a></li>
+            <li onclick="toggle()"><a href="./index.html#testimonials">TESTIMONIALS</a></li>
+            <li onclick="toggle()"><a href="./faq.html">FAQ's</a></li>
+            <li onclick="toggle()"><a href="./contact.html">CONTACT</a></li>
+        </ul>
+        
+        <div class="social">
+            <a onclick="toggle()" href="about.html"><li class="instagram"><i class="fab fa-instagram fa-2x"></i></li></a>
+            <a onclick="toggle()" href="contact.html"><li class="facebook"><i class="fab fa-facebook-f fa-2x"></i></li></a>
+            <a onclick="toggle()" href="contact.html"><li class="behance"><i class="fab fa-behance fa-2x"></i></li></a>
+        </div>
     </div>
-    <section class="container-fluid detail" data-aos="fade-up">
-        <h5>artitsts and developers</h5>
-        <h1 class="heading">hey, we are artelers!</h1>
-        <p class="content"><span>..........</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus architecto, rerum reiciendis impedit facere culpa mollitia sequi beatae animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ducimus architecto, rerum reiciendis impedit facere culpa mollitia sequi beatae animi.</p>
-        <h2 class="link"><a href="./contact.html" class="link"><span>contact me</span></h2>
-        
-    </section>
 
-    <section class="why-we container-fluid" data-aos="fade-up">
-        
-        <h1 class="heading">why we?</h1>
-        <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia iure ad laudantium corporis veritatis, aliquam sit culpa voluptatem recusandae minus.</p>
-    
-    </section>
+    <div id="why-we" class="container-fluid">
+        <h1>WHY WE</h1>
+        <p>With More Than 2 Years Of Experience And Many Project We Are Here To Make A Next Masterpiece For Your Business</p>
+    </div>
 
-    <section id="services" class="container-fluid" data-aos="fade-up">
-        <h1 class="heading">our services include</h1>
+    <div id="process" class="eve">
+        <h1>OUR PROCESS FOR DEVELOPING</h1>
+        <div class="row eve">
+            <div class="col-1 number-family">01</div>
+            <div class="col-1"></div>
+            Making Requirements
+        </div>
+
+        <div class="row eve">
+            <div class="col-1 number-family">02</div>
+            <div class="col-1"></div>
+            Logo Designing
+        </div>
+
+        <div class="row eve">
+            <div class="col-1 number-family">03</div>
+            <div class="col-1"></div>
+            Wireframing
+        </div>
+
+        <div class="row eve">
+            <div class="col-1 number-family">04</div>
+            <div class="col-1"></div>
+            UI Designing
+        </div>
+
+        <div class="row eve">
+            <div class="col-1 number-family">05</div>
+            <div class="col-1"></div>
+            Developing
+        </div>
+
+        <div class="row eve">
+            <div class="col-1 number-family">06</div>
+            <div class="col-1"></div>
+            Testing
+        </div>
+
+        <div class="row eve">
+            <div class="col-1 number-family">07</div>
+            <div class="col-1"></div>
+            Deployement
+        </div>
+        
+    </div>
+
+
+
+    <div id="services" class="container-fluid">
+        <h1>SERVICES</h1>
+        <p>Your A to Z Solution</p>
         <div class="row">
-            <ul class="content col-lg-4 col-md-6 col-sm-12">
-                <li>logo designs</li>
-                <li>paper designs</li>
-                <li>digital designs</li>
-            </ul>
-
-            <ul class="content col-lg-4 col-md-6 col-sm-12">
-                <li>SEO services</li>
-                <li>photoshop</li>
-                <li>illustrations</li>
-            </ul>
-
-            <ul class="content col-lg-4 col-md-6 col-sm-12">
-                <li>photography</li>
-                <li>AdSense services</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="pricing container-fluid" data-aos="fade-up">
-        <h1 class="heading">pricing</h1>
-        <div class="container" data-aos="fade-up">
-            <div class="card">
-                <div style="padding: 0 2vw;">
-                    <h3>Basic plan</h3>
-                    
-                    <p class="service-includes">services includes</p>
-                    <p>(recommended for personal portfolio)</p>
-                    <ul class="">
-                        <li>1-2 pg</li>
-                        <li>basic logo design</li>
-                        <li>UI/UX Design</li>
-                        <li class="duration">7-10 days</li>
-                    </ul>
-                    <div class="card-price"> starting from<span class="target-price"><sup class="rupee-icon">&#8377;</sup> 8500/- </span></div>
-                </div>
+            <div class="col-3 image-section">
+                <img class="services-images" src="./images/logo-image.jpg" alt="">
+            </div>
+            <div class="col-8">
+                <h1>Logo Designing</h1>
+                <p>We Will Give Your Business An Identity To Store Your Business To Your Clients Head.</p>
             </div>
         </div>
-        <div class="container" data-aos="fade-up">
-            <div class="card">
-                <div style="padding: 0 2vw;">
-                    <h3>recommended plan</h3>
-                    
-                    <p class="service-includes">services includes</p>
-                    <p>(recommended for company portfolio)</p>
-                    <ul class="">
-                        <li>3-6 pg</li>
-                        <li>1 logo design</li>
-                        <li>UI/UX Designs</li>
-                        <li class="duration">15-45 days</li>
-                    </ul>
-                    <div class="card-price"> starting from <span class="target-price"><span class="rupee-icon">&#8377;</span> 15000/-</span></div>
-                </div>
-            </div>
-        </div>
-        <div class="container" data-aos="fade-up">
-            <div class="card">
-                <div style="padding: 0 3vw;">
-                    <h3>premium plan</h3>
-                    <p class="service-includes">services includes</p>
-                    <p>(recommended for e-commerce portfolio)</p>
-                    <ul class="">
-                        <li>unlimited pages</li>
-                        <li>logo design</li>
-                        <li>UI/UX Designs</li>
-                        <li>illustrations</li>
-                        <li class="duration">upto 60 days</li>
-                    </ul>
-                    <div class="card-price"> starting from <span class="target-price"><span class="rupee-icon">&#8377;</span> 30000/-</span></div>
-                </div>
-            </div>                
-        </div>
-    </section>
-
-    <section class="ready container-fluid" data-aos="fade-up">
-        <h1 class="heading">
-            Ready To Work With Us.
-        </h1>
-        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Magni ducimus architecto, rerum reiciendis impedit facere culpa mollitia sequi.</p>
         
-        <a href="contact.html"><button class="hire" data-aos="zoom-in">hire us</button></a>
-        <a href="about.html" class="side-about" data-aos="zoom-in"> about <div class="right"></div></a>
-    </section>
+        <div class="row">
+            <div class="col-3 image-section">
+                <img class="services-images" src="./images/wireframing-image.jpg" alt="">
+            </div>
+            <div class="col-8">
+                <h1>UI / UX Designing</h1>
+                <p>A Process Of Designing Which Big Companies Follow To Make A Web-Design For Best Results.</p>
+            </div>
+        </div>
 
-    <footer class="footer">made by artelers, with love in india.</footer>
+        <div class="row">
+            <div class="col-3 image-section">
+                <img class="services-images" src="./images/development-image.jpg" alt="">
+            </div>
+            <div class="col-8">
+                <h1>Development</h1>
+                <p>It Consists Of How The Website Looks And How It Functions.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 image-section">
+                <img class="services-images" src="./images/marketing-image.jpg" alt="">
+            </div>
+            <div class="col-8">
+                <h1>Marketing</h1>
+                <p>Marketing Consists Of Many Things Such As Banners, Brochures, Ads, Posters And Many More.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="contact-section container-fluid">
+        <h1>CONTACT</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum numquam facilis quo illo sequi nostrum delectus, natus quia iste doloremque magni sunt vero ipsa aliquid, sed recusandae? Temporibus, sapiente. Non.</p>
     
-    <!-- scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-    crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/kursor"></script>
+        <form action="">
+            <input type="text" name="" id="" placeholder="Name"><br>
+            <input type="email" name="" id="" placeholder="Email"><br>
+            <input type="text" name="" id="" placeholder="Subject"><br>
+            <input type="tel" name="" id="" placeholder="Mobile"><br>
+            <textarea name="styled-textarea" onfocus="setbg('#e5fff3');" onblur="setbg('white')" placeholder="Message"></textarea><br>
+            <button type="submit">SEND</button>
+        </form>
+    </div> -->
+
+    <div id="testimonials" class="eve">
+        <h1>TESTIMONIALS</h1>
+        <p>see what our clients wants to say,</p>
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active inner-testimonial">
+                <h1>LaxmiKant Sharma</h1>
+                <p>Owner of Royal Packers and Movers</p>
+                <p>" Really Liked The Work Done By These Guys. I Wanted The Total Solution Consisting Logo, Website And Marketing And They Did It All. "</p>
+              </div>
+              <div class="carousel-item inner-testimonial">
+                <h1>Ravi Yadav</h1>
+                <p>Partner | Royal Packers and Movers</p>
+                <p>"I Really Liked The Work but my main attraction was logo designed by them. REALLY GREAT JOB."</p>
+              </div>
+              <div class="carousel-item inner-testimonial">
+                <h1>Rahul Pathak</h1>
+                <p>CEO | Kishan Real Estate</p>
+                <p>"I wanted the work to be done Quickly and effeciently, and they made it I got my website on time."</p>
+              </div>
+              <div class="carousel-item inner-testimonial">
+                <h1>Krishna Maurya</h1>
+                <p>CEO | Kishan Real Estate</p>
+                <p>"The Website looks Really Good, Worth IT."</p>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+
+    <div class="footer">
+        <div class="socials">
+            <div class="instagram"><a href=""><i class="fab fa-instagram"></a></i></div>
+            <div class="facebook"><a href=""><i class="fab fa-facebook-f"></i></a></div>
+            <div class="behance"><a href=""><i class="fab fa-behance"></i></a></div>
+        </div>
+
+        <div class="quick-links">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./index.html#why-we">WHY WE</a></li>
+                <li><a href="./index.html#services">SERVICES</a></li>
+                <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                <li><a href="./index.html#testimonials">TESTIMONIALS</a></li>
+                <li><a href="./faq.html">FAQ's</a></li>                
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <footer><span>&copy;2020-21 | Artelers</span> <span>All Rights Reserved</span></footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script src="./app.js"></script>
 </body>
 </html>
